@@ -20,13 +20,9 @@ public class Jurnal_no1 {
             hasil = fib[i] + hasil;
         }
          
-        for (int i = 0; i < n; i++) {
+        for (int i = n-1; i >= 0; i--) {
             System.out.print(fib[i] +  " ");
         }
-        System.out.println("");
-        System.out.println("");
-        System.out.print("Hasil Penjumlahan Fibonacchi : ");
-        System.out.println(hasil);
         
     }
     
